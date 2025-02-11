@@ -1,0 +1,13 @@
+[169] Filósofo 3 está pensando
+[186] Filósofo 3 tomó el tenedor izquierdo
+[186] Filósofo 3 tomó el tenedor derecho y está comiendo
+[189] Filósofo 3 está comiendo
+[189] Filósofo 2 está pensando
+[192] Filósofo 1 está pensando
+[298] Filósofo 3 soltó los tenedores y está pensando
+[299] Filósofo 3 está durmiendo
+[299] Filósofo 2 tomó el tenedor izquierdo
+[299] Filósofo 2 tomó el tenedor derecho y está comiendo
+[299] Filósofo 2 está comiendo
+[299] Filósofo 1 tomó el tenedor izquierdo
+[308] Filósofo 1 ha muerto

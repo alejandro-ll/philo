@@ -21,6 +21,7 @@ void init_philosophers(t_config *config, t_philo **philos, pthread_mutex_t *fork
         (*philos)[i].last_meal = get_time();
         (*philos)[i].config = config;
 
+        pthread_mutex_init(&(*philos)[i].meal_mutex, NULL); // Inicializar meal_mutex
         // 🟢 Diferenciamos entre filósofos pares e impares para evitar deadlocks
         if (i % 2 == 0)
         {
