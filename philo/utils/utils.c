@@ -9,6 +9,14 @@ long get_time(void)
 
 void print_status(t_config *config, int id, char *status)
 {
+    pthread_mutex_lock(&config->state_mutex);
+    if (!config->simulation_running && ft_strcmp(status, "ha muerto") != 0)
+    {
+        pthread_mutex_unlock(&config->state_mutex);
+        return;
+    }
+    pthread_mutex_unlock(&config->state_mutex);
+
     pthread_mutex_lock(&config->print_mutex);
     printf("[%ld] Filósofo %d %s\n", get_time() - config->start_time, id, status);
     pthread_mutex_unlock(&config->print_mutex);
@@ -49,4 +57,13 @@ int parse_args(int argc, char **argv, t_config *config)
         return (printf("Error: Valores inválidos.\n"), 1);
 
     return (0);
+}
+
+int ft_strcmp(const char *s1, const char *s2)
+{
+    while (*s1 && (*s1 == *s2)) {
+        s1++;
+        s2++;
+    }
+    return *(unsigned char *)s1 - *(unsigned char *)s2;
 }

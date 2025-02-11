@@ -15,7 +15,7 @@ int check_death(t_philo *philos)
             pthread_mutex_unlock(&philos[i].meal_mutex);
             print_status(philos[i].config, philos[i].id, "ha muerto");
 
-            // 🔴 Detener simulación inmediatamente
+            // Detener simulación inmediatamente
             pthread_mutex_lock(&philos[0].config->state_mutex);
             philos[0].config->simulation_running = 0;
             pthread_mutex_unlock(&philos[0].config->state_mutex);
@@ -63,7 +63,10 @@ void *monitor(void *arg)
             pthread_mutex_lock(&philos[0].config->state_mutex);
             philos[0].config->simulation_running = 0;
             pthread_mutex_unlock(&philos[0].config->state_mutex);
-            return (NULL); // 🔴 Terminar el monitor inmediatamente
+
+            // 🔴 Esperar unos milisegundos antes de salir para permitir que los hilos terminen
+            usleep(50000);
+            return (NULL);
         }
         usleep(500);
     }

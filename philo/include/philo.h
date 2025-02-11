@@ -41,6 +41,6 @@ void    cleanup(t_config *config, t_philo *philos, pthread_mutex_t *forks);
 void    print_status(t_config *config, int id, char *status);
 
 int	ft_atoi(const char *str);
-
+int ft_strcmp(const char *s1, const char *s2);
 
 #endif

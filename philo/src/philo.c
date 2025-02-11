@@ -60,6 +60,7 @@ void *philosopher(void *arg)
 
     while (1)
     {
+        // 🔴 Verificar si la simulación terminó antes de cualquier acción
         pthread_mutex_lock(&philo->config->state_mutex);
         if (!philo->config->simulation_running)
         {
@@ -68,20 +69,24 @@ void *philosopher(void *arg)
         }
         pthread_mutex_unlock(&philo->config->state_mutex);
 
-        pthread_mutex_lock(&philo->meal_mutex);
-        if (philo->config->must_eat != -1 && philo->meals_eaten >= philo->config->must_eat)
-        {
-            pthread_mutex_unlock(&philo->meal_mutex);
-            return (NULL); // 🔴 El filósofo termina si ya comió suficiente
-        }
-        pthread_mutex_unlock(&philo->meal_mutex);
-
         print_status(philo->config, philo->id, "está pensando");
-        eat(philo);
+
+        if (!eat(philo)) // 🔴 Si la simulación terminó, salir
+            return (NULL);
 
         print_status(philo->config, philo->id, "está durmiendo");
-        usleep(philo->config->time_to_sleep * 1000);
-    }
 
+        for (int i = 0; i < philo->config->time_to_sleep; i += 10) // 🔴 Revisar cada 10ms
+        {
+            usleep(10000);
+            pthread_mutex_lock(&philo->config->state_mutex);
+            if (!philo->config->simulation_running)
+            {
+                pthread_mutex_unlock(&philo->config->state_mutex);
+                return (NULL);
+            }
+            pthread_mutex_unlock(&philo->config->state_mutex);
+        }
+    }
     return (NULL);
 }
