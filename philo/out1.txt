@@ -1,0 +1,75 @@
+[1] Filósofo 1 está pensando
+[1] Filósofo 1 tomó el tenedor izquierdo
+[1] Filósofo 1 tomó el tenedor derecho y está comiendo
+[1] Filósofo 1 está comiendo
+[1] Filósofo 2 está pensando
+[1] Filósofo 2 tomó el tenedor izquierdo
+[1] Filósofo 3 está pensando
+[1] Filósofo 4 está pensando
+[101] Filósofo 1 soltó los tenedores y está pensando
+[101] Filósofo 1 está durmiendo
+[101] Filósofo 4 tomó el tenedor izquierdo
+[101] Filósofo 4 tomó el tenedor derecho y está comiendo
+[101] Filósofo 4 está comiendo
+[101] Filósofo 2 tomó el tenedor derecho y está comiendo
+[101] Filósofo 2 está comiendo
+[201] Filósofo 4 soltó los tenedores y está pensando
+[201] Filósofo 4 está durmiendo
+[201] Filósofo 1 está pensando
+[201] Filósofo 1 tomó el tenedor izquierdo
+[201] Filósofo 2 soltó los tenedores y está pensando
+[201] Filósofo 2 está durmiendo
+[201] Filósofo 3 tomó el tenedor izquierdo
+[201] Filósofo 3 tomó el tenedor derecho y está comiendo
+[201] Filósofo 3 está comiendo
+[202] Filósofo 1 tomó el tenedor derecho y está comiendo
+[202] Filósofo 1 está comiendo
+[302] Filósofo 4 está pensando
+[302] Filósofo 1 soltó los tenedores y está pensando
+[302] Filósofo 1 está durmiendo
+[302] Filósofo 4 tomó el tenedor izquierdo
+[302] Filósofo 4 tomó el tenedor derecho y está comiendo
+[302] Filósofo 4 está comiendo
+[302] Filósofo 3 soltó los tenedores y está pensando
+[302] Filósofo 3 está durmiendo
+[305] Filósofo 2 está pensando
+[305] Filósofo 2 tomó el tenedor izquierdo
+[305] Filósofo 2 tomó el tenedor derecho y está comiendo
+[305] Filósofo 2 está comiendo
+[402] Filósofo 1 está pensando
+[402] Filósofo 4 soltó los tenedores y está pensando
+[402] Filósofo 4 está durmiendo
+[402] Filósofo 1 tomó el tenedor izquierdo
+[403] Filósofo 3 está pensando
+[405] Filósofo 2 soltó los tenedores y está pensando
+[405] Filósofo 2 está durmiendo
+[405] Filósofo 3 tomó el tenedor izquierdo
+[405] Filósofo 3 tomó el tenedor derecho y está comiendo
+[405] Filósofo 3 está comiendo
+[405] Filósofo 1 tomó el tenedor derecho y está comiendo
+[405] Filósofo 1 está comiendo
+[503] Filósofo 4 está pensando
+[506] Filósofo 3 soltó los tenedores y está pensando
+[506] Filósofo 3 está durmiendo
+[506] Filósofo 1 soltó los tenedores y está pensando
+[506] Filósofo 1 está durmiendo
+[506] Filósofo 4 tomó el tenedor izquierdo
+[506] Filósofo 4 tomó el tenedor derecho y está comiendo
+[506] Filósofo 4 está comiendo
+[507] Filósofo 2 está pensando
+[507] Filósofo 2 tomó el tenedor izquierdo
+[507] Filósofo 2 tomó el tenedor derecho y está comiendo
+[507] Filósofo 2 está comiendo
+[607] Filósofo 3 está pensando
+[607] Filósofo 1 está pensando
+[607] Filósofo 4 soltó los tenedores y está pensando
+[607] Filósofo 4 está durmiendo
+[607] Filósofo 1 tomó el tenedor izquierdo
+[610] Filósofo 3 tomó el tenedor izquierdo
+[610] Filósofo 3 tomó el tenedor derecho y está comiendo
+[610] Filósofo 3 está comiendo
+[611] Filósofo 1 tomó el tenedor derecho y está comiendo
+[611] Filósofo 1 está comiendo
+[614] Filósofo 2 soltó los tenedores y está pensando
+[711] Filósofo 3 soltó los tenedores y está pensando
+[711] Filósofo 1 soltó los tenedores y está pensando

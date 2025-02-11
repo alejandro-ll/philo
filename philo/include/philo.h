@@ -15,7 +15,9 @@ typedef struct s_config
     int time_to_sleep;
     int must_eat;
     long start_time;
+    int simulation_running;
     pthread_mutex_t print_mutex;
+    pthread_mutex_t state_mutex;
 } t_config;
 
 typedef struct s_philo
@@ -25,6 +27,7 @@ typedef struct s_philo
     long last_meal;
     pthread_mutex_t *left_fork;
     pthread_mutex_t *right_fork;
+    pthread_mutex_t meal_mutex;
     pthread_t thread;
     t_config *config;
 } t_philo;

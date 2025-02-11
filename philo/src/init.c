@@ -7,6 +7,7 @@ void init_mutex(t_config *config, pthread_mutex_t **forks)
     while (i < config->num_filosofos)
         pthread_mutex_init(&(*forks)[i++], NULL);
     pthread_mutex_init(&config->print_mutex, NULL);
+    pthread_mutex_init(&config->state_mutex, NULL);
 }
 
 void init_philosophers(t_config *config, t_philo **philos, pthread_mutex_t *forks)
@@ -19,6 +20,7 @@ void init_philosophers(t_config *config, t_philo **philos, pthread_mutex_t *fork
         (*philos)[i].meals_eaten = 0;
         (*philos)[i].last_meal = get_time();
         (*philos)[i].config = config;
+        pthread_mutex_init(&(*philos)[i].meal_mutex, NULL);
 
         // 🟢 Diferenciamos entre filósofos pares e impares para evitar deadlocks
         if (i % 2 == 0)
@@ -45,19 +47,23 @@ void start_threads(t_config *config, t_philo *philos)
         pthread_create(&philos[i].thread, NULL, philosopher, &philos[i]);
         i++;
     }
+
     pthread_create(&monitor_thread, NULL, monitor, philos);
+
+    pthread_join(monitor_thread, NULL); // 🔴 Primero aseguramos que `monitor` termine
+
     i = 0;
     while (i < config->num_filosofos)
     {
-        pthread_join(philos[i].thread, NULL);
+        pthread_join(philos[i].thread, NULL); // 🔴 Luego aseguramos que todos los filósofos terminen
         i++;
     }
-    pthread_join(monitor_thread, NULL);
 }
 
 void init_simulation(t_config *config, t_philo **philos, pthread_mutex_t **forks)
 {
     config->start_time = get_time();
+    config->simulation_running = 1;
     init_mutex(config, forks);
     init_philosophers(config, philos, *forks);
     start_threads(config, *philos);
