@@ -13,7 +13,7 @@ int check_death(t_philo *philos)
         if ((current_time - philos[i].last_meal) > philos[i].config->time_to_die)
         {
             pthread_mutex_unlock(&philos[i].meal_mutex);
-            print_status(philos[i].config, philos[i].id, "ha muerto");
+            print_status(philos[i].config, philos[i].id, "died");
 
             // Detener simulación inmediatamente
             pthread_mutex_lock(&philos[0].config->state_mutex);

@@ -11,22 +11,21 @@ void take_forks(t_philo *philo)
     pthread_mutex_unlock(&philo->config->state_mutex);
 
     pthread_mutex_lock(philo->left_fork);
-    print_status(philo->config, philo->id, "tomó el tenedor izquierdo");
+    print_status(philo->config, philo->id, "has taken a fork");
 
     if (pthread_mutex_lock(philo->right_fork) != 0) 
     {
         pthread_mutex_unlock(philo->left_fork);
-        print_status(philo->config, philo->id, "soltó el tenedor izquierdo");
+        print_status(philo->config, philo->id, "has taken a fork");
         return ;
     }
-    print_status(philo->config, philo->id, "tomó el tenedor derecho y está comiendo");
+    print_status(philo->config, philo->id, "has taken a fork");
 }
 
 void release_forks(t_philo *philo)
 {
     pthread_mutex_unlock(philo->left_fork);
     pthread_mutex_unlock(philo->right_fork);
-    print_status(philo->config, philo->id, "soltó los tenedores y está pensando");
 }
 
 int eat(t_philo *philo)
@@ -47,7 +46,7 @@ int eat(t_philo *philo)
     philo->meals_eaten++;
     pthread_mutex_unlock(&philo->meal_mutex);
 
-    print_status(philo->config, philo->id, "está comiendo");
+    print_status(philo->config, philo->id, "is eating");
     usleep(philo->config->time_to_eat * 1000);
 
     release_forks(philo);
@@ -69,12 +68,12 @@ void *philosopher(void *arg)
         }
         pthread_mutex_unlock(&philo->config->state_mutex);
 
-        print_status(philo->config, philo->id, "está pensando");
+        print_status(philo->config, philo->id, "is thinking");
 
         if (!eat(philo)) // 🔴 Si la simulación terminó, salir
             return (NULL);
 
-        print_status(philo->config, philo->id, "está durmiendo");
+        print_status(philo->config, philo->id, "is sleeping");
 
         for (int i = 0; i < philo->config->time_to_sleep; i += 10) // 🔴 Revisar cada 10ms
         {
