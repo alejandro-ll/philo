@@ -1,1218 +1,598 @@
-[0] Philosopher 1 is thinking
-[1] Philosopher 1 has taken a fork
-[1] Philosopher 1 has taken a fork
-[1] Philosopher 1 is eating
-[1] Philosopher 2 is thinking
-[1] Philosopher 2 has taken a fork
-[1] Philosopher 3 is thinking
-[1] Philosopher 4 is thinking
-[101] Philosopher 1 is sleeping
-[101] Philosopher 4 has taken a fork
-[101] Philosopher 4 has taken a fork
-[101] Philosopher 4 is eating
-[101] Philosopher 2 has taken a fork
-[101] Philosopher 2 is eating
-[201] Philosopher 2 is sleeping
-[201] Philosopher 4 is sleeping
-[201] Philosopher 3 has taken a fork
-[201] Philosopher 3 has taken a fork
-[201] Philosopher 3 is eating
-[205] Philosopher 1 is thinking
-[205] Philosopher 1 has taken a fork
-[205] Philosopher 1 has taken a fork
-[205] Philosopher 1 is eating
-[301] Philosopher 3 is sleeping
-[306] Philosopher 1 is sleeping
-[307] Philosopher 4 is thinking
-[307] Philosopher 4 has taken a fork
-[307] Philosopher 4 has taken a fork
-[307] Philosopher 4 is eating
-[307] Philosopher 2 is thinking
-[307] Philosopher 2 has taken a fork
-[307] Philosopher 2 has taken a fork
-[307] Philosopher 2 is eating
-[407] Philosopher 4 is sleeping
-[407] Philosopher 2 is sleeping
-[420] Philosopher 3 is thinking
-[420] Philosopher 3 has taken a fork
-[420] Philosopher 3 has taken a fork
-[420] Philosopher 3 is eating
-[420] Philosopher 1 is thinking
-[420] Philosopher 1 has taken a fork
-[420] Philosopher 1 has taken a fork
-[420] Philosopher 1 is eating
-[514] Philosopher 4 is thinking
-[514] Philosopher 2 is thinking
-[520] Philosopher 3 is sleeping
-[521] Philosopher 1 is sleeping
-[521] Philosopher 2 has taken a fork
-[521] Philosopher 2 has taken a fork
-[521] Philosopher 2 is eating
-[521] Philosopher 4 has taken a fork
-[521] Philosopher 4 has taken a fork
-[521] Philosopher 4 is eating
-[621] Philosopher 2 is sleeping
-[621] Philosopher 4 is sleeping
-[624] Philosopher 3 is thinking
-[624] Philosopher 3 has taken a fork
-[624] Philosopher 3 has taken a fork
-[624] Philosopher 3 is eating
-[624] Philosopher 1 is thinking
-[624] Philosopher 1 has taken a fork
-[624] Philosopher 1 has taken a fork
-[624] Philosopher 1 is eating
-[725] Philosopher 3 is sleeping
-[725] Philosopher 1 is sleeping
-[730] Philosopher 4 is thinking
-[730] Philosopher 4 has taken a fork
-[730] Philosopher 4 has taken a fork
-[730] Philosopher 4 is eating
-[731] Philosopher 2 is thinking
-[731] Philosopher 2 has taken a fork
-[731] Philosopher 2 has taken a fork
-[731] Philosopher 2 is eating
-[830] Philosopher 4 is sleeping
-[832] Philosopher 2 is sleeping
-[835] Philosopher 3 is thinking
-[835] Philosopher 3 has taken a fork
-[835] Philosopher 3 has taken a fork
-[835] Philosopher 3 is eating
-[835] Philosopher 1 is thinking
-[835] Philosopher 1 has taken a fork
-[835] Philosopher 1 has taken a fork
-[835] Philosopher 1 is eating
-[936] Philosopher 3 is sleeping
-[936] Philosopher 1 is sleeping
-[939] Philosopher 4 is thinking
-[939] Philosopher 4 has taken a fork
-[939] Philosopher 4 has taken a fork
-[939] Philosopher 4 is eating
-[941] Philosopher 2 is thinking
-[941] Philosopher 2 has taken a fork
-[941] Philosopher 2 has taken a fork
-[941] Philosopher 2 is eating
-[1039] Philosopher 4 is sleeping
-[1042] Philosopher 2 is sleeping
-[1042] Philosopher 3 is thinking
-[1042] Philosopher 3 has taken a fork
-[1042] Philosopher 3 has taken a fork
-[1042] Philosopher 3 is eating
-[1043] Philosopher 1 is thinking
-[1043] Philosopher 1 has taken a fork
-[1043] Philosopher 1 has taken a fork
-[1043] Philosopher 1 is eating
-[1142] Philosopher 3 is sleeping
-[1144] Philosopher 1 is sleeping
-[1147] Philosopher 4 is thinking
-[1147] Philosopher 4 has taken a fork
-[1147] Philosopher 4 has taken a fork
-[1147] Philosopher 4 is eating
-[1147] Philosopher 2 is thinking
-[1147] Philosopher 2 has taken a fork
-[1147] Philosopher 2 has taken a fork
-[1147] Philosopher 2 is eating
-[1288] Philosopher 3 is thinking
-[1288] Philosopher 1 is thinking
-[1289] Philosopher 4 is sleeping
-[1289] Philosopher 2 is sleeping
-[1290] Philosopher 1 has taken a fork
-[1290] Philosopher 1 has taken a fork
-[1290] Philosopher 1 is eating
-[1290] Philosopher 3 has taken a fork
-[1290] Philosopher 3 has taken a fork
-[1290] Philosopher 3 is eating
-[1390] Philosopher 1 is sleeping
-[1391] Philosopher 3 is sleeping
-[1396] Philosopher 4 is thinking
-[1396] Philosopher 4 has taken a fork
-[1396] Philosopher 4 has taken a fork
-[1396] Philosopher 4 is eating
-[1396] Philosopher 2 is thinking
-[1396] Philosopher 2 has taken a fork
-[1396] Philosopher 2 has taken a fork
-[1396] Philosopher 2 is eating
-[1500] Philosopher 3 is thinking
-[1500] Philosopher 1 is thinking
-[1500] Philosopher 4 is sleeping
-[1500] Philosopher 1 has taken a fork
-[1501] Philosopher 2 is sleeping
-[1502] Philosopher 3 has taken a fork
-[1502] Philosopher 3 has taken a fork
-[1502] Philosopher 3 is eating
-[1502] Philosopher 1 has taken a fork
-[1502] Philosopher 1 is eating
-[1602] Philosopher 3 is sleeping
-[1602] Philosopher 1 is sleeping
-[1608] Philosopher 2 is thinking
-[1608] Philosopher 2 has taken a fork
-[1608] Philosopher 2 has taken a fork
-[1608] Philosopher 2 is eating
-[1608] Philosopher 4 is thinking
-[1608] Philosopher 4 has taken a fork
-[1608] Philosopher 4 has taken a fork
-[1608] Philosopher 4 is eating
-[1705] Philosopher 3 is thinking
-[1705] Philosopher 1 is thinking
-[1708] Philosopher 2 is sleeping
-[1708] Philosopher 4 is sleeping
-[1708] Philosopher 1 has taken a fork
-[1708] Philosopher 1 has taken a fork
-[1708] Philosopher 1 is eating
-[1708] Philosopher 3 has taken a fork
-[1708] Philosopher 3 has taken a fork
-[1708] Philosopher 3 is eating
-[1808] Philosopher 1 is sleeping
-[1808] Philosopher 3 is sleeping
-[1812] Philosopher 4 is thinking
-[1812] Philosopher 4 has taken a fork
-[1812] Philosopher 4 has taken a fork
-[1812] Philosopher 4 is eating
-[1813] Philosopher 2 is thinking
-[1813] Philosopher 2 has taken a fork
-[1813] Philosopher 2 has taken a fork
-[1813] Philosopher 2 is eating
-[1912] Philosopher 4 is sleeping
-[1913] Philosopher 2 is sleeping
-[1915] Philosopher 3 is thinking
-[1915] Philosopher 3 has taken a fork
-[1915] Philosopher 3 has taken a fork
-[1915] Philosopher 3 is eating
-[1915] Philosopher 1 is thinking
-[1915] Philosopher 1 has taken a fork
-[1915] Philosopher 1 has taken a fork
-[1915] Philosopher 1 is eating
-[2016] Philosopher 3 is sleeping
-[2016] Philosopher 1 is sleeping
-[2018] Philosopher 2 is thinking
-[2018] Philosopher 2 has taken a fork
-[2018] Philosopher 2 has taken a fork
-[2018] Philosopher 2 is eating
-[2021] Philosopher 4 is thinking
-[2021] Philosopher 4 has taken a fork
-[2021] Philosopher 4 has taken a fork
-[2021] Philosopher 4 is eating
-[2119] Philosopher 2 is sleeping
-[2121] Philosopher 4 is sleeping
-[2123] Philosopher 3 is thinking
-[2123] Philosopher 3 has taken a fork
-[2123] Philosopher 3 has taken a fork
-[2123] Philosopher 3 is eating
-[2124] Philosopher 1 is thinking
-[2124] Philosopher 1 has taken a fork
-[2124] Philosopher 1 has taken a fork
-[2124] Philosopher 1 is eating
-[2223] Philosopher 3 is sleeping
-[2225] Philosopher 1 is sleeping
-[2225] Philosopher 2 is thinking
-[2225] Philosopher 2 has taken a fork
-[2225] Philosopher 2 has taken a fork
-[2225] Philosopher 2 is eating
-[2230] Philosopher 4 is thinking
-[2230] Philosopher 4 has taken a fork
-[2230] Philosopher 4 has taken a fork
-[2230] Philosopher 4 is eating
-[2326] Philosopher 2 is sleeping
-[2330] Philosopher 4 is sleeping
-[2332] Philosopher 3 is thinking
-[2332] Philosopher 3 has taken a fork
-[2332] Philosopher 3 has taken a fork
-[2332] Philosopher 3 is eating
-[2335] Philosopher 1 is thinking
-[2335] Philosopher 1 has taken a fork
-[2335] Philosopher 1 has taken a fork
-[2335] Philosopher 1 is eating
-[2430] Philosopher 2 is thinking
-[2434] Philosopher 3 is sleeping
-[2434] Philosopher 2 has taken a fork
-[2436] Philosopher 1 is sleeping
-[2436] Philosopher 4 is thinking
-[2436] Philosopher 4 has taken a fork
-[2436] Philosopher 4 has taken a fork
-[2436] Philosopher 4 is eating
-[2436] Philosopher 2 has taken a fork
-[2436] Philosopher 2 is eating
-[2536] Philosopher 4 is sleeping
-[2536] Philosopher 2 is sleeping
-[2541] Philosopher 3 is thinking
-[2541] Philosopher 3 has taken a fork
-[2541] Philosopher 3 has taken a fork
-[2541] Philosopher 3 is eating
-[2543] Philosopher 1 is thinking
-[2543] Philosopher 1 has taken a fork
-[2543] Philosopher 1 has taken a fork
-[2543] Philosopher 1 is eating
-[2641] Philosopher 3 is sleeping
-[2641] Philosopher 2 is thinking
-[2641] Philosopher 2 has taken a fork
-[2641] Philosopher 4 is thinking
-[2644] Philosopher 1 is sleeping
-[2644] Philosopher 4 has taken a fork
-[2644] Philosopher 4 has taken a fork
-[2644] Philosopher 4 is eating
-[2644] Philosopher 2 has taken a fork
-[2644] Philosopher 2 is eating
-[2744] Philosopher 4 is sleeping
-[2744] Philosopher 2 is sleeping
-[2748] Philosopher 3 is thinking
-[2748] Philosopher 3 has taken a fork
-[2748] Philosopher 3 has taken a fork
-[2748] Philosopher 3 is eating
-[2752] Philosopher 1 is thinking
-[2752] Philosopher 1 has taken a fork
-[2752] Philosopher 1 has taken a fork
-[2752] Philosopher 1 is eating
-[2853] Philosopher 2 is thinking
-[2853] Philosopher 4 is thinking
-[2853] Philosopher 4 has taken a fork
-[2853] Philosopher 1 is sleeping
-[2853] Philosopher 3 is sleeping
-[2853] Philosopher 4 has taken a fork
-[2853] Philosopher 4 is eating
-[2853] Philosopher 2 has taken a fork
-[2853] Philosopher 2 has taken a fork
-[2853] Philosopher 2 is eating
-[2954] Philosopher 2 is sleeping
-[2954] Philosopher 4 is sleeping
-[2961] Philosopher 3 is thinking
-[2961] Philosopher 3 has taken a fork
-[2961] Philosopher 3 has taken a fork
-[2961] Philosopher 3 is eating
-[2961] Philosopher 1 is thinking
-[2961] Philosopher 1 has taken a fork
-[2961] Philosopher 1 has taken a fork
-[2961] Philosopher 1 is eating
-[3063] Philosopher 3 is sleeping
-[3063] Philosopher 1 is sleeping
-[3065] Philosopher 4 is thinking
-[3065] Philosopher 4 has taken a fork
-[3065] Philosopher 4 has taken a fork
-[3065] Philosopher 4 is eating
-[3065] Philosopher 2 is thinking
-[3065] Philosopher 2 has taken a fork
-[3065] Philosopher 2 has taken a fork
-[3065] Philosopher 2 is eating
-[3166] Philosopher 2 is sleeping
-[3166] Philosopher 4 is sleeping
-[3172] Philosopher 1 is thinking
-[3172] Philosopher 1 has taken a fork
-[3172] Philosopher 1 has taken a fork
-[3172] Philosopher 1 is eating
-[3175] Philosopher 3 is thinking
-[3175] Philosopher 3 has taken a fork
-[3175] Philosopher 3 has taken a fork
-[3175] Philosopher 3 is eating
-[3273] Philosopher 1 is sleeping
-[3274] Philosopher 2 is thinking
-[3274] Philosopher 4 is thinking
-[3274] Philosopher 4 has taken a fork
-[3276] Philosopher 4 has taken a fork
-[3276] Philosopher 4 is eating
-[3276] Philosopher 2 has taken a fork
-[3276] Philosopher 2 has taken a fork
-[3276] Philosopher 2 is eating
-[3276] Philosopher 3 is sleeping
-[3376] Philosopher 2 is sleeping
-[3376] Philosopher 4 is sleeping
-[3379] Philosopher 1 is thinking
-[3379] Philosopher 1 has taken a fork
-[3379] Philosopher 1 has taken a fork
-[3379] Philosopher 1 is eating
-[3385] Philosopher 3 is thinking
-[3385] Philosopher 3 has taken a fork
-[3385] Philosopher 3 has taken a fork
-[3385] Philosopher 3 is eating
-[3479] Philosopher 1 is sleeping
-[3485] Philosopher 2 is thinking
-[3485] Philosopher 4 is thinking
-[3485] Philosopher 4 has taken a fork
-[3485] Philosopher 3 is sleeping
-[3485] Philosopher 4 has taken a fork
-[3485] Philosopher 4 is eating
-[3485] Philosopher 2 has taken a fork
-[3485] Philosopher 2 has taken a fork
-[3485] Philosopher 2 is eating
-[3586] Philosopher 4 is sleeping
-[3586] Philosopher 2 is sleeping
-[3587] Philosopher 1 is thinking
-[3587] Philosopher 1 has taken a fork
-[3587] Philosopher 1 has taken a fork
-[3587] Philosopher 1 is eating
-[3591] Philosopher 3 is thinking
-[3591] Philosopher 3 has taken a fork
-[3591] Philosopher 3 has taken a fork
-[3591] Philosopher 3 is eating
-[3687] Philosopher 1 is sleeping
-[3691] Philosopher 3 is sleeping
-[3695] Philosopher 4 is thinking
-[3695] Philosopher 4 has taken a fork
-[3695] Philosopher 4 has taken a fork
-[3695] Philosopher 4 is eating
-[3699] Philosopher 2 is thinking
-[3699] Philosopher 2 has taken a fork
-[3699] Philosopher 2 has taken a fork
-[3699] Philosopher 2 is eating
-[3795] Philosopher 1 is thinking
-[3795] Philosopher 4 is sleeping
-[3795] Philosopher 1 has taken a fork
-[3801] Philosopher 3 is thinking
-[3801] Philosopher 3 has taken a fork
-[3801] Philosopher 3 has taken a fork
-[3801] Philosopher 3 is eating
-[3801] Philosopher 2 is sleeping
-[3801] Philosopher 1 has taken a fork
-[3801] Philosopher 1 is eating
-[3901] Philosopher 3 is sleeping
-[3901] Philosopher 1 is sleeping
-[3913] Philosopher 4 is thinking
-[3913] Philosopher 4 has taken a fork
-[3913] Philosopher 4 has taken a fork
-[3913] Philosopher 4 is eating
-[3925] Philosopher 2 is thinking
-[3925] Philosopher 2 has taken a fork
-[3925] Philosopher 2 has taken a fork
-[3925] Philosopher 2 is eating
-[4013] Philosopher 1 is thinking
-[4013] Philosopher 3 is thinking
-[4014] Philosopher 4 is sleeping
-[4014] Philosopher 1 has taken a fork
-[4028] Philosopher 3 has taken a fork
-[4028] Philosopher 3 has taken a fork
-[4028] Philosopher 3 is eating
-[4028] Philosopher 2 is sleeping
-[4028] Philosopher 1 has taken a fork
-[4028] Philosopher 1 is eating
-[4123] Philosopher 4 is thinking
-[4129] Philosopher 1 is sleeping
-[4129] Philosopher 3 is sleeping
-[4129] Philosopher 4 has taken a fork
-[4129] Philosopher 4 has taken a fork
-[4129] Philosopher 4 is eating
-[4134] Philosopher 2 is thinking
-[4134] Philosopher 2 has taken a fork
-[4134] Philosopher 2 has taken a fork
-[4134] Philosopher 2 is eating
-[4229] Philosopher 4 is sleeping
-[4233] Philosopher 1 is thinking
-[4233] Philosopher 1 has taken a fork
-[4233] Philosopher 3 is thinking
-[4235] Philosopher 2 is sleeping
-[4235] Philosopher 3 has taken a fork
-[4235] Philosopher 3 has taken a fork
-[4235] Philosopher 3 is eating
-[4235] Philosopher 1 has taken a fork
-[4235] Philosopher 1 is eating
-[4333] Philosopher 4 is thinking
-[4335] Philosopher 3 is sleeping
-[4335] Philosopher 1 is sleeping
-[4335] Philosopher 4 has taken a fork
-[4335] Philosopher 4 has taken a fork
-[4335] Philosopher 4 is eating
-[4342] Philosopher 2 is thinking
-[4342] Philosopher 2 has taken a fork
-[4342] Philosopher 2 has taken a fork
-[4342] Philosopher 2 is eating
-[4436] Philosopher 4 is sleeping
-[4443] Philosopher 2 is sleeping
-[4444] Philosopher 3 is thinking
-[4444] Philosopher 3 has taken a fork
-[4444] Philosopher 3 has taken a fork
-[4444] Philosopher 3 is eating
-[4444] Philosopher 1 is thinking
-[4444] Philosopher 1 has taken a fork
-[4444] Philosopher 1 has taken a fork
-[4444] Philosopher 1 is eating
-[4540] Philosopher 4 is thinking
-[4545] Philosopher 3 is sleeping
-[4545] Philosopher 1 is sleeping
-[4545] Philosopher 4 has taken a fork
-[4545] Philosopher 4 has taken a fork
-[4545] Philosopher 4 is eating
-[4550] Philosopher 2 is thinking
-[4550] Philosopher 2 has taken a fork
-[4550] Philosopher 2 has taken a fork
-[4550] Philosopher 2 is eating
-[4646] Philosopher 4 is sleeping
-[4648] Philosopher 3 is thinking
-[4648] Philosopher 1 is thinking
-[4648] Philosopher 1 has taken a fork
-[4650] Philosopher 2 is sleeping
-[4650] Philosopher 3 has taken a fork
-[4650] Philosopher 3 has taken a fork
-[4650] Philosopher 3 is eating
-[4650] Philosopher 1 has taken a fork
-[4650] Philosopher 1 is eating
-[4749] Philosopher 4 is thinking
-[4751] Philosopher 3 is sleeping
-[4751] Philosopher 1 is sleeping
-[4751] Philosopher 4 has taken a fork
-[4751] Philosopher 4 has taken a fork
-[4751] Philosopher 4 is eating
-[4755] Philosopher 2 is thinking
-[4755] Philosopher 2 has taken a fork
-[4755] Philosopher 2 has taken a fork
-[4755] Philosopher 2 is eating
-[4851] Philosopher 4 is sleeping
-[4854] Philosopher 3 is thinking
-[4854] Philosopher 1 is thinking
-[4854] Philosopher 1 has taken a fork
-[4856] Philosopher 2 is sleeping
-[4856] Philosopher 3 has taken a fork
-[4856] Philosopher 3 has taken a fork
-[4856] Philosopher 3 is eating
-[4856] Philosopher 1 has taken a fork
-[4856] Philosopher 1 is eating
-[4956] Philosopher 3 is sleeping
-[4957] Philosopher 1 is sleeping
-[4958] Philosopher 4 is thinking
-[4958] Philosopher 4 has taken a fork
-[4958] Philosopher 4 has taken a fork
-[4958] Philosopher 4 is eating
-[4961] Philosopher 2 is thinking
-[4961] Philosopher 2 has taken a fork
-[4961] Philosopher 2 has taken a fork
-[4961] Philosopher 2 is eating
-[5060] Philosopher 4 is sleeping
-[5062] Philosopher 2 is sleeping
-[5063] Philosopher 3 is thinking
-[5063] Philosopher 3 has taken a fork
-[5063] Philosopher 3 has taken a fork
-[5063] Philosopher 3 is eating
-[5065] Philosopher 1 is thinking
-[5065] Philosopher 1 has taken a fork
-[5065] Philosopher 1 has taken a fork
-[5065] Philosopher 1 is eating
-[5164] Philosopher 3 is sleeping
-[5166] Philosopher 1 is sleeping
-[5168] Philosopher 2 is thinking
-[5168] Philosopher 2 has taken a fork
-[5168] Philosopher 2 has taken a fork
-[5168] Philosopher 2 is eating
-[5168] Philosopher 4 is thinking
-[5168] Philosopher 4 has taken a fork
-[5168] Philosopher 4 has taken a fork
-[5168] Philosopher 4 is eating
-[5269] Philosopher 4 is sleeping
-[5269] Philosopher 2 is sleeping
-[5272] Philosopher 3 is thinking
-[5272] Philosopher 3 has taken a fork
-[5272] Philosopher 3 has taken a fork
-[5272] Philosopher 3 is eating
-[5276] Philosopher 1 is thinking
-[5276] Philosopher 1 has taken a fork
-[5276] Philosopher 1 has taken a fork
-[5276] Philosopher 1 is eating
-[5373] Philosopher 3 is sleeping
-[5377] Philosopher 1 is sleeping
-[5394] Philosopher 4 is thinking
-[5394] Philosopher 4 has taken a fork
-[5394] Philosopher 4 has taken a fork
-[5394] Philosopher 4 is eating
-[5394] Philosopher 2 is thinking
-[5394] Philosopher 2 has taken a fork
-[5394] Philosopher 2 has taken a fork
-[5394] Philosopher 2 is eating
-[5478] Philosopher 3 is thinking
-[5484] Philosopher 1 is thinking
-[5495] Philosopher 4 is sleeping
-[5495] Philosopher 2 is sleeping
-[5495] Philosopher 1 has taken a fork
-[5495] Philosopher 1 has taken a fork
-[5495] Philosopher 1 is eating
-[5495] Philosopher 3 has taken a fork
-[5495] Philosopher 3 has taken a fork
-[5495] Philosopher 3 is eating
-[5595] Philosopher 1 is sleeping
-[5598] Philosopher 3 is sleeping
-[5604] Philosopher 2 is thinking
-[5604] Philosopher 2 has taken a fork
-[5604] Philosopher 2 has taken a fork
-[5604] Philosopher 2 is eating
-[5604] Philosopher 4 is thinking
-[5604] Philosopher 4 has taken a fork
-[5604] Philosopher 4 has taken a fork
-[5604] Philosopher 4 is eating
-[5701] Philosopher 1 is thinking
-[5705] Philosopher 4 is sleeping
-[5705] Philosopher 2 is sleeping
-[5705] Philosopher 1 has taken a fork
-[5705] Philosopher 1 has taken a fork
-[5705] Philosopher 1 is eating
-[5709] Philosopher 3 is thinking
-[5709] Philosopher 3 has taken a fork
-[5709] Philosopher 3 has taken a fork
-[5709] Philosopher 3 is eating
-[5805] Philosopher 1 is sleeping
-[5810] Philosopher 3 is sleeping
-[5814] Philosopher 2 is thinking
-[5814] Philosopher 2 has taken a fork
-[5814] Philosopher 2 has taken a fork
-[5814] Philosopher 2 is eating
-[5814] Philosopher 4 is thinking
-[5814] Philosopher 4 has taken a fork
-[5814] Philosopher 4 has taken a fork
-[5814] Philosopher 4 is eating
-[5912] Philosopher 1 is thinking
-[5914] Philosopher 2 is sleeping
-[5915] Philosopher 3 is thinking
-[5915] Philosopher 3 has taken a fork
-[5915] Philosopher 4 is sleeping
-[5915] Philosopher 1 has taken a fork
-[5915] Philosopher 1 has taken a fork
-[5915] Philosopher 1 is eating
-[5915] Philosopher 3 has taken a fork
-[5915] Philosopher 3 is eating
-[6015] Philosopher 1 is sleeping
-[6015] Philosopher 3 is sleeping
-[6022] Philosopher 4 is thinking
-[6022] Philosopher 4 has taken a fork
-[6022] Philosopher 4 has taken a fork
-[6022] Philosopher 4 is eating
-[6022] Philosopher 2 is thinking
-[6022] Philosopher 2 has taken a fork
-[6022] Philosopher 2 has taken a fork
-[6022] Philosopher 2 is eating
-[6122] Philosopher 4 is sleeping
-[6122] Philosopher 2 is sleeping
-[6123] Philosopher 1 is thinking
-[6123] Philosopher 1 has taken a fork
-[6123] Philosopher 1 has taken a fork
-[6123] Philosopher 1 is eating
-[6123] Philosopher 3 is thinking
-[6123] Philosopher 3 has taken a fork
-[6123] Philosopher 3 has taken a fork
-[6123] Philosopher 3 is eating
-[6223] Philosopher 1 is sleeping
-[6228] Philosopher 3 is sleeping
-[6230] Philosopher 2 is thinking
-[6230] Philosopher 2 has taken a fork
-[6230] Philosopher 2 has taken a fork
-[6230] Philosopher 2 is eating
-[6230] Philosopher 4 is thinking
-[6230] Philosopher 4 has taken a fork
-[6230] Philosopher 4 has taken a fork
-[6230] Philosopher 4 is eating
-[6329] Philosopher 1 is thinking
-[6331] Philosopher 4 is sleeping
-[6331] Philosopher 1 has taken a fork
-[6331] Philosopher 2 is sleeping
-[6331] Philosopher 1 has taken a fork
-[6331] Philosopher 1 is eating
-[6334] Philosopher 3 is thinking
-[6334] Philosopher 3 has taken a fork
-[6334] Philosopher 3 has taken a fork
-[6334] Philosopher 3 is eating
-[6432] Philosopher 1 is sleeping
-[6434] Philosopher 3 is sleeping
-[6441] Philosopher 4 is thinking
-[6441] Philosopher 4 has taken a fork
-[6441] Philosopher 4 has taken a fork
-[6441] Philosopher 4 is eating
-[6441] Philosopher 2 is thinking
-[6441] Philosopher 2 has taken a fork
-[6441] Philosopher 2 has taken a fork
-[6441] Philosopher 2 is eating
-[6541] Philosopher 2 is sleeping
-[6541] Philosopher 4 is sleeping
-[6545] Philosopher 1 is thinking
-[6545] Philosopher 1 has taken a fork
-[6545] Philosopher 1 has taken a fork
-[6545] Philosopher 1 is eating
-[6553] Philosopher 3 is thinking
-[6553] Philosopher 3 has taken a fork
-[6553] Philosopher 3 has taken a fork
-[6553] Philosopher 3 is eating
-[6646] Philosopher 1 is sleeping
-[6651] Philosopher 4 is thinking
-[6651] Philosopher 4 has taken a fork
-[6651] Philosopher 2 is thinking
-[6656] Philosopher 2 has taken a fork
-[6656] Philosopher 2 has taken a fork
-[6656] Philosopher 2 is eating
-[6656] Philosopher 3 is sleeping
-[6656] Philosopher 4 has taken a fork
-[6656] Philosopher 4 is eating
-[6751] Philosopher 1 is thinking
-[6757] Philosopher 2 is sleeping
-[6757] Philosopher 4 is sleeping
-[6757] Philosopher 1 has taken a fork
-[6757] Philosopher 1 has taken a fork
-[6757] Philosopher 1 is eating
-[6762] Philosopher 3 is thinking
-[6762] Philosopher 3 has taken a fork
-[6762] Philosopher 3 has taken a fork
-[6762] Philosopher 3 is eating
-[6857] Philosopher 1 is sleeping
-[6864] Philosopher 4 is thinking
-[6864] Philosopher 4 has taken a fork
-[6864] Philosopher 2 is thinking
-[6865] Philosopher 3 is sleeping
-[6865] Philosopher 4 has taken a fork
-[6865] Philosopher 4 is eating
-[6865] Philosopher 2 has taken a fork
-[6865] Philosopher 2 has taken a fork
-[6865] Philosopher 2 is eating
-[6965] Philosopher 2 is sleeping
-[6965] Philosopher 4 is sleeping
-[6968] Philosopher 1 is thinking
-[6968] Philosopher 1 has taken a fork
-[6968] Philosopher 1 has taken a fork
-[6968] Philosopher 1 is eating
-[6977] Philosopher 3 is thinking
-[6977] Philosopher 3 has taken a fork
-[6977] Philosopher 3 has taken a fork
-[6977] Philosopher 3 is eating
-[7069] Philosopher 1 is sleeping
-[7072] Philosopher 4 is thinking
-[7072] Philosopher 4 has taken a fork
-[7072] Philosopher 2 is thinking
-[7077] Philosopher 3 is sleeping
-[7077] Philosopher 2 has taken a fork
-[7077] Philosopher 2 has taken a fork
-[7077] Philosopher 2 is eating
-[7077] Philosopher 4 has taken a fork
-[7077] Philosopher 4 is eating
-[7177] Philosopher 1 is thinking
-[7182] Philosopher 4 is sleeping
-[7182] Philosopher 2 is sleeping
-[7182] Philosopher 1 has taken a fork
-[7182] Philosopher 1 has taken a fork
-[7182] Philosopher 1 is eating
-[7182] Philosopher 3 is thinking
-[7182] Philosopher 3 has taken a fork
-[7182] Philosopher 3 has taken a fork
-[7182] Philosopher 3 is eating
-[7283] Philosopher 3 is sleeping
-[7283] Philosopher 1 is sleeping
-[7286] Philosopher 2 is thinking
-[7286] Philosopher 2 has taken a fork
-[7286] Philosopher 2 has taken a fork
-[7286] Philosopher 2 is eating
-[7286] Philosopher 4 is thinking
-[7286] Philosopher 4 has taken a fork
-[7286] Philosopher 4 has taken a fork
-[7286] Philosopher 4 is eating
-[7386] Philosopher 1 is thinking
-[7387] Philosopher 1 has taken a fork
-[7387] Philosopher 4 is sleeping
-[7387] Philosopher 1 has taken a fork
-[7387] Philosopher 1 is eating
-[7387] Philosopher 2 is sleeping
-[7389] Philosopher 3 is thinking
-[7389] Philosopher 3 has taken a fork
-[7389] Philosopher 3 has taken a fork
-[7389] Philosopher 3 is eating
-[7488] Philosopher 1 is sleeping
-[7490] Philosopher 3 is sleeping
-[7495] Philosopher 4 is thinking
-[7495] Philosopher 4 has taken a fork
-[7495] Philosopher 4 has taken a fork
-[7495] Philosopher 4 is eating
-[7495] Philosopher 2 is thinking
-[7495] Philosopher 2 has taken a fork
-[7495] Philosopher 2 has taken a fork
-[7495] Philosopher 2 is eating
-[7593] Philosopher 1 is thinking
-[7594] Philosopher 3 is thinking
-[7597] Philosopher 2 is sleeping
-[7597] Philosopher 1 has taken a fork
-[7597] Philosopher 1 has taken a fork
-[7597] Philosopher 1 is eating
-[7597] Philosopher 4 is sleeping
-[7597] Philosopher 3 has taken a fork
-[7597] Philosopher 3 has taken a fork
-[7597] Philosopher 3 is eating
-[7702] Philosopher 3 is sleeping
-[7702] Philosopher 2 is thinking
-[7702] Philosopher 2 has taken a fork
-[7702] Philosopher 4 is thinking
-[7702] Philosopher 1 is sleeping
-[7702] Philosopher 2 has taken a fork
-[7702] Philosopher 2 is eating
-[7702] Philosopher 4 has taken a fork
-[7702] Philosopher 4 has taken a fork
-[7702] Philosopher 4 is eating
-[7803] Philosopher 4 is sleeping
-[7803] Philosopher 2 is sleeping
-[7807] Philosopher 1 is thinking
-[7807] Philosopher 1 has taken a fork
-[7807] Philosopher 1 has taken a fork
-[7807] Philosopher 1 is eating
-[7819] Philosopher 3 is thinking
-[7819] Philosopher 3 has taken a fork
-[7819] Philosopher 3 has taken a fork
-[7819] Philosopher 3 is eating
-[7908] Philosopher 1 is sleeping
-[7914] Philosopher 4 is thinking
-[7914] Philosopher 4 has taken a fork
-[7918] Philosopher 2 is thinking
-[7930] Philosopher 3 is sleeping
-[7930] Philosopher 2 has taken a fork
-[7930] Philosopher 2 has taken a fork
-[7930] Philosopher 2 is eating
-[7930] Philosopher 4 has taken a fork
-[7930] Philosopher 4 is eating
-[8014] Philosopher 1 is thinking
-[8030] Philosopher 2 is sleeping
-[8030] Philosopher 4 is sleeping
-[8030] Philosopher 1 has taken a fork
-[8030] Philosopher 1 has taken a fork
-[8030] Philosopher 1 is eating
-[8037] Philosopher 3 is thinking
-[8037] Philosopher 3 has taken a fork
-[8037] Philosopher 3 has taken a fork
-[8037] Philosopher 3 is eating
-[8130] Philosopher 1 is sleeping
-[8137] Philosopher 3 is sleeping
-[8142] Philosopher 2 is thinking
-[8142] Philosopher 2 has taken a fork
-[8142] Philosopher 2 has taken a fork
-[8142] Philosopher 2 is eating
-[8142] Philosopher 4 is thinking
-[8142] Philosopher 4 has taken a fork
-[8142] Philosopher 4 has taken a fork
-[8142] Philosopher 4 is eating
-[8242] Philosopher 4 is sleeping
-[8242] Philosopher 2 is sleeping
-[8248] Philosopher 1 is thinking
-[8248] Philosopher 1 has taken a fork
-[8248] Philosopher 1 has taken a fork
-[8248] Philosopher 1 is eating
-[8252] Philosopher 3 is thinking
-[8252] Philosopher 3 has taken a fork
-[8252] Philosopher 3 has taken a fork
-[8252] Philosopher 3 is eating
-[8351] Philosopher 1 is sleeping
-[8353] Philosopher 2 is thinking
-[8354] Philosopher 4 is thinking
-[8354] Philosopher 4 has taken a fork
-[8354] Philosopher 3 is sleeping
-[8355] Philosopher 4 has taken a fork
-[8355] Philosopher 4 is eating
-[8355] Philosopher 2 has taken a fork
-[8355] Philosopher 2 has taken a fork
-[8355] Philosopher 2 is eating
-[8455] Philosopher 2 is sleeping
-[8455] Philosopher 4 is sleeping
-[8460] Philosopher 1 is thinking
-[8460] Philosopher 1 has taken a fork
-[8460] Philosopher 1 has taken a fork
-[8460] Philosopher 1 is eating
-[8466] Philosopher 3 is thinking
-[8466] Philosopher 3 has taken a fork
-[8466] Philosopher 3 has taken a fork
-[8466] Philosopher 3 is eating
-[8563] Philosopher 4 is thinking
-[8563] Philosopher 2 is thinking
-[8563] Philosopher 1 is sleeping
-[8563] Philosopher 4 has taken a fork
-[8567] Philosopher 3 is sleeping
-[8567] Philosopher 2 has taken a fork
-[8567] Philosopher 2 has taken a fork
-[8567] Philosopher 2 is eating
-[8567] Philosopher 4 has taken a fork
-[8567] Philosopher 4 is eating
-[8668] Philosopher 2 is sleeping
-[8668] Philosopher 4 is sleeping
-[8671] Philosopher 1 is thinking
-[8671] Philosopher 1 has taken a fork
-[8671] Philosopher 1 has taken a fork
-[8671] Philosopher 1 is eating
-[8675] Philosopher 3 is thinking
-[8675] Philosopher 3 has taken a fork
-[8675] Philosopher 3 has taken a fork
-[8675] Philosopher 3 is eating
-[8772] Philosopher 1 is sleeping
-[8775] Philosopher 2 is thinking
-[8775] Philosopher 4 is thinking
-[8775] Philosopher 4 has taken a fork
-[8775] Philosopher 3 is sleeping
-[8776] Philosopher 4 has taken a fork
-[8776] Philosopher 4 is eating
-[8776] Philosopher 2 has taken a fork
-[8776] Philosopher 2 has taken a fork
-[8776] Philosopher 2 is eating
-[8882] Philosopher 4 is sleeping
-[8882] Philosopher 2 is sleeping
-[8911] Philosopher 1 is thinking
-[8911] Philosopher 1 has taken a fork
-[8911] Philosopher 1 has taken a fork
-[8911] Philosopher 1 is eating
-[8914] Philosopher 3 is thinking
-[8914] Philosopher 3 has taken a fork
-[8914] Philosopher 3 has taken a fork
-[8914] Philosopher 3 is eating
-[8993] Philosopher 2 is thinking
-[8993] Philosopher 4 is thinking
-[9011] Philosopher 1 is sleeping
-[9012] Philosopher 4 has taken a fork
-[9014] Philosopher 3 is sleeping
-[9018] Philosopher 4 has taken a fork
-[9018] Philosopher 4 is eating
-[9018] Philosopher 2 has taken a fork
-[9018] Philosopher 2 has taken a fork
-[9018] Philosopher 2 is eating
-[9124] Philosopher 2 is sleeping
-[9124] Philosopher 4 is sleeping
-[9135] Philosopher 1 is thinking
-[9135] Philosopher 1 has taken a fork
-[9135] Philosopher 1 has taken a fork
-[9135] Philosopher 1 is eating
-[9149] Philosopher 3 is thinking
-[9149] Philosopher 3 has taken a fork
-[9149] Philosopher 3 has taken a fork
-[9149] Philosopher 3 is eating
-[9236] Philosopher 1 is sleeping
-[9238] Philosopher 4 is thinking
-[9238] Philosopher 4 has taken a fork
-[9238] Philosopher 2 is thinking
-[9249] Philosopher 3 is sleeping
-[9249] Philosopher 2 has taken a fork
-[9249] Philosopher 2 has taken a fork
-[9249] Philosopher 2 is eating
-[9249] Philosopher 4 has taken a fork
-[9249] Philosopher 4 is eating
-[9343] Philosopher 1 is thinking
-[9350] Philosopher 2 is sleeping
-[9350] Philosopher 4 is sleeping
-[9350] Philosopher 1 has taken a fork
-[9350] Philosopher 1 has taken a fork
-[9350] Philosopher 1 is eating
-[9353] Philosopher 3 is thinking
-[9353] Philosopher 3 has taken a fork
-[9353] Philosopher 3 has taken a fork
-[9353] Philosopher 3 is eating
-[9450] Philosopher 1 is sleeping
-[9454] Philosopher 3 is sleeping
-[9455] Philosopher 4 is thinking
-[9455] Philosopher 4 has taken a fork
-[9455] Philosopher 4 has taken a fork
-[9455] Philosopher 4 is eating
-[9455] Philosopher 2 is thinking
-[9455] Philosopher 2 has taken a fork
-[9455] Philosopher 2 has taken a fork
-[9455] Philosopher 2 is eating
-[9555] Philosopher 1 is thinking
-[9555] Philosopher 4 is sleeping
-[9555] Philosopher 2 is sleeping
-[9557] Philosopher 1 has taken a fork
-[9557] Philosopher 1 has taken a fork
-[9557] Philosopher 1 is eating
-[9564] Philosopher 3 is thinking
-[9564] Philosopher 3 has taken a fork
-[9564] Philosopher 3 has taken a fork
-[9564] Philosopher 3 is eating
-[9658] Philosopher 1 is sleeping
-[9659] Philosopher 2 is thinking
-[9659] Philosopher 4 is thinking
-[9659] Philosopher 4 has taken a fork
-[9665] Philosopher 3 is sleeping
-[9665] Philosopher 2 has taken a fork
-[9665] Philosopher 2 has taken a fork
-[9665] Philosopher 2 is eating
-[9665] Philosopher 4 has taken a fork
-[9665] Philosopher 4 is eating
-[9762] Philosopher 1 is thinking
-[9765] Philosopher 4 is sleeping
-[9765] Philosopher 2 is sleeping
-[9765] Philosopher 1 has taken a fork
-[9765] Philosopher 1 has taken a fork
-[9765] Philosopher 1 is eating
-[9771] Philosopher 3 is thinking
-[9771] Philosopher 3 has taken a fork
-[9771] Philosopher 3 has taken a fork
-[9771] Philosopher 3 is eating
-[9866] Philosopher 1 is sleeping
-[9869] Philosopher 4 is thinking
-[9869] Philosopher 4 has taken a fork
-[9869] Philosopher 2 is thinking
-[9871] Philosopher 3 is sleeping
-[9871] Philosopher 4 has taken a fork
-[9871] Philosopher 4 is eating
-[9874] Philosopher 2 has taken a fork
-[9874] Philosopher 2 has taken a fork
-[9874] Philosopher 2 is eating
-[9970] Philosopher 1 is thinking
-[9972] Philosopher 4 is sleeping
-[9972] Philosopher 1 has taken a fork
-[9975] Philosopher 2 is sleeping
-[9975] Philosopher 1 has taken a fork
-[9975] Philosopher 1 is eating
-[9978] Philosopher 3 is thinking
-[9978] Philosopher 3 has taken a fork
-[9978] Philosopher 3 has taken a fork
-[9978] Philosopher 3 is eating
-[10075] Philosopher 4 is thinking
-[10076] Philosopher 1 is sleeping
-[10076] Philosopher 4 has taken a fork
-[10078] Philosopher 3 is sleeping
-[10078] Philosopher 4 has taken a fork
-[10078] Philosopher 4 is eating
-[10081] Philosopher 2 is thinking
-[10081] Philosopher 2 has taken a fork
-[10081] Philosopher 2 has taken a fork
-[10081] Philosopher 2 is eating
-[10178] Philosopher 4 is sleeping
-[10179] Philosopher 1 is thinking
-[10179] Philosopher 1 has taken a fork
-[10181] Philosopher 3 is thinking
-[10182] Philosopher 3 has taken a fork
-[10182] Philosopher 3 has taken a fork
-[10182] Philosopher 3 is eating
-[10182] Philosopher 2 is sleeping
-[10182] Philosopher 1 has taken a fork
-[10182] Philosopher 1 is eating
-[10282] Philosopher 3 is sleeping
-[10282] Philosopher 1 is sleeping
-[10284] Philosopher 4 is thinking
-[10284] Philosopher 4 has taken a fork
-[10284] Philosopher 4 has taken a fork
-[10284] Philosopher 4 is eating
-[10290] Philosopher 2 is thinking
-[10290] Philosopher 2 has taken a fork
-[10290] Philosopher 2 has taken a fork
-[10290] Philosopher 2 is eating
-[10384] Philosopher 4 is sleeping
-[10386] Philosopher 3 is thinking
-[10389] Philosopher 1 is thinking
-[10389] Philosopher 1 has taken a fork
-[10390] Philosopher 2 is sleeping
-[10390] Philosopher 3 has taken a fork
-[10390] Philosopher 3 has taken a fork
-[10390] Philosopher 3 is eating
-[10390] Philosopher 1 has taken a fork
-[10390] Philosopher 1 is eating
-[10487] Philosopher 4 is thinking
-[10491] Philosopher 3 is sleeping
-[10491] Philosopher 1 is sleeping
-[10491] Philosopher 4 has taken a fork
-[10491] Philosopher 4 has taken a fork
-[10491] Philosopher 4 is eating
-[10494] Philosopher 2 is thinking
-[10494] Philosopher 2 has taken a fork
-[10494] Philosopher 2 has taken a fork
-[10494] Philosopher 2 is eating
-[10591] Philosopher 4 is sleeping
-[10594] Philosopher 2 is sleeping
-[10595] Philosopher 3 is thinking
-[10595] Philosopher 3 has taken a fork
-[10595] Philosopher 3 has taken a fork
-[10595] Philosopher 3 is eating
-[10595] Philosopher 1 is thinking
-[10595] Philosopher 1 has taken a fork
-[10595] Philosopher 1 has taken a fork
-[10595] Philosopher 1 is eating
-[10696] Philosopher 3 is sleeping
-[10696] Philosopher 1 is sleeping
-[10697] Philosopher 4 is thinking
-[10697] Philosopher 4 has taken a fork
-[10697] Philosopher 4 has taken a fork
-[10697] Philosopher 4 is eating
-[10699] Philosopher 2 is thinking
-[10699] Philosopher 2 has taken a fork
-[10699] Philosopher 2 has taken a fork
-[10699] Philosopher 2 is eating
-[10797] Philosopher 4 is sleeping
-[10800] Philosopher 2 is sleeping
-[10801] Philosopher 3 is thinking
-[10801] Philosopher 3 has taken a fork
-[10801] Philosopher 3 has taken a fork
-[10801] Philosopher 3 is eating
-[10801] Philosopher 1 is thinking
-[10801] Philosopher 1 has taken a fork
-[10801] Philosopher 1 has taken a fork
-[10801] Philosopher 1 is eating
-[10901] Philosopher 1 is sleeping
-[10901] Philosopher 3 is sleeping
-[10905] Philosopher 2 is thinking
-[10905] Philosopher 2 has taken a fork
-[10905] Philosopher 2 has taken a fork
-[10905] Philosopher 2 is eating
-[10912] Philosopher 4 is thinking
-[10912] Philosopher 4 has taken a fork
-[10912] Philosopher 4 has taken a fork
-[10912] Philosopher 4 is eating
-[11006] Philosopher 3 is thinking
-[11006] Philosopher 1 is thinking
-[11006] Philosopher 2 is sleeping
-[11006] Philosopher 3 has taken a fork
-[11013] Philosopher 4 is sleeping
-[11013] Philosopher 1 has taken a fork
-[11013] Philosopher 1 has taken a fork
-[11013] Philosopher 1 is eating
-[11013] Philosopher 3 has taken a fork
-[11013] Philosopher 3 is eating
-[11111] Philosopher 2 is thinking
-[11113] Philosopher 1 is sleeping
-[11113] Philosopher 3 is sleeping
-[11113] Philosopher 2 has taken a fork
-[11113] Philosopher 2 has taken a fork
-[11113] Philosopher 2 is eating
-[11118] Philosopher 4 is thinking
-[11118] Philosopher 4 has taken a fork
-[11118] Philosopher 4 has taken a fork
-[11118] Philosopher 4 is eating
-[11213] Philosopher 2 is sleeping
-[11219] Philosopher 3 is thinking
-[11219] Philosopher 3 has taken a fork
-[11219] Philosopher 1 is thinking
-[11222] Philosopher 1 has taken a fork
-[11222] Philosopher 1 has taken a fork
-[11222] Philosopher 1 is eating
-[11222] Philosopher 3 has taken a fork
-[11222] Philosopher 3 is eating
-[11222] Philosopher 4 is sleeping
-[11322] Philosopher 2 is thinking
-[11323] Philosopher 3 is sleeping
-[11323] Philosopher 1 is sleeping
-[11323] Philosopher 2 has taken a fork
-[11323] Philosopher 2 has taken a fork
-[11323] Philosopher 2 is eating
-[11326] Philosopher 4 is thinking
-[11326] Philosopher 4 has taken a fork
-[11326] Philosopher 4 has taken a fork
-[11326] Philosopher 4 is eating
-[11423] Philosopher 2 is sleeping
-[11427] Philosopher 4 is sleeping
-[11437] Philosopher 1 is thinking
-[11437] Philosopher 1 has taken a fork
-[11437] Philosopher 1 has taken a fork
-[11437] Philosopher 1 is eating
-[11437] Philosopher 3 is thinking
-[11437] Philosopher 3 has taken a fork
-[11437] Philosopher 3 has taken a fork
-[11437] Philosopher 3 is eating
-[11532] Philosopher 2 is thinking
-[11539] Philosopher 3 is sleeping
-[11539] Philosopher 1 is sleeping
-[11541] Philosopher 2 has taken a fork
-[11541] Philosopher 2 has taken a fork
-[11541] Philosopher 2 is eating
-[11543] Philosopher 4 is thinking
-[11543] Philosopher 4 has taken a fork
-[11543] Philosopher 4 has taken a fork
-[11543] Philosopher 4 is eating
-[11641] Philosopher 2 is sleeping
-[11643] Philosopher 4 is sleeping
-[11647] Philosopher 1 is thinking
-[11647] Philosopher 1 has taken a fork
-[11647] Philosopher 1 has taken a fork
-[11647] Philosopher 1 is eating
-[11647] Philosopher 3 is thinking
-[11647] Philosopher 3 has taken a fork
-[11647] Philosopher 3 has taken a fork
-[11647] Philosopher 3 is eating
-[11747] Philosopher 2 is thinking
-[11748] Philosopher 1 is sleeping
-[11748] Philosopher 3 is sleeping
-[11748] Philosopher 2 has taken a fork
-[11748] Philosopher 2 has taken a fork
-[11748] Philosopher 2 is eating
-[11748] Philosopher 4 is thinking
-[11748] Philosopher 4 has taken a fork
-[11748] Philosopher 4 has taken a fork
-[11748] Philosopher 4 is eating
-[11848] Philosopher 2 is sleeping
-[11848] Philosopher 4 is sleeping
-[11851] Philosopher 3 is thinking
-[11851] Philosopher 3 has taken a fork
-[11851] Philosopher 3 has taken a fork
-[11851] Philosopher 3 is eating
-[11851] Philosopher 1 is thinking
-[11851] Philosopher 1 has taken a fork
-[11851] Philosopher 1 has taken a fork
-[11851] Philosopher 1 is eating
-[11951] Philosopher 3 is sleeping
-[11951] Philosopher 1 is sleeping
-[11952] Philosopher 2 is thinking
-[11952] Philosopher 2 has taken a fork
-[11952] Philosopher 2 has taken a fork
-[11952] Philosopher 2 is eating
-[11954] Philosopher 4 is thinking
-[11954] Philosopher 4 has taken a fork
-[11954] Philosopher 4 has taken a fork
-[11954] Philosopher 4 is eating
-[12053] Philosopher 2 is sleeping
-[12054] Philosopher 3 is thinking
-[12054] Philosopher 3 has taken a fork
-[12054] Philosopher 1 is thinking
-[12054] Philosopher 4 is sleeping
-[12054] Philosopher 1 has taken a fork
-[12054] Philosopher 1 has taken a fork
-[12054] Philosopher 1 is eating
-[12054] Philosopher 3 has taken a fork
-[12054] Philosopher 3 is eating
-[12155] Philosopher 1 is sleeping
-[12155] Philosopher 3 is sleeping
-[12157] Philosopher 2 is thinking
-[12157] Philosopher 2 has taken a fork
-[12157] Philosopher 2 has taken a fork
-[12157] Philosopher 2 is eating
-[12158] Philosopher 4 is thinking
-[12158] Philosopher 4 has taken a fork
-[12158] Philosopher 4 has taken a fork
-[12158] Philosopher 4 is eating
-[12258] Philosopher 2 is sleeping
-[12258] Philosopher 4 is sleeping
-[12260] Philosopher 1 is thinking
-[12260] Philosopher 1 has taken a fork
-[12260] Philosopher 1 has taken a fork
-[12260] Philosopher 1 is eating
-[12260] Philosopher 3 is thinking
-[12260] Philosopher 3 has taken a fork
-[12260] Philosopher 3 has taken a fork
-[12260] Philosopher 3 is eating
-[12360] Philosopher 1 is sleeping
-[12360] Philosopher 3 is sleeping
-[12362] Philosopher 2 is thinking
-[12362] Philosopher 2 has taken a fork
-[12362] Philosopher 2 has taken a fork
-[12362] Philosopher 2 is eating
-[12362] Philosopher 4 is thinking
-[12362] Philosopher 4 has taken a fork
-[12362] Philosopher 4 has taken a fork
-[12362] Philosopher 4 is eating
-[12462] Philosopher 4 is sleeping
-[12462] Philosopher 2 is sleeping
-[12464] Philosopher 1 is thinking
-[12464] Philosopher 1 has taken a fork
-[12464] Philosopher 1 has taken a fork
-[12464] Philosopher 1 is eating
-[12464] Philosopher 3 is thinking
-[12464] Philosopher 3 has taken a fork
-[12464] Philosopher 3 has taken a fork
-[12464] Philosopher 3 is eating
-[12565] Philosopher 1 is sleeping
-[12565] Philosopher 3 is sleeping
-[12567] Philosopher 4 is thinking
-[12567] Philosopher 4 has taken a fork
-[12567] Philosopher 4 has taken a fork
-[12567] Philosopher 4 is eating
-[12567] Philosopher 2 is thinking
-[12567] Philosopher 2 has taken a fork
-[12567] Philosopher 2 has taken a fork
-[12567] Philosopher 2 is eating
-[12668] Philosopher 4 is sleeping
-[12678] Philosopher 1 is thinking
-[12678] Philosopher 1 has taken a fork
-[12678] Philosopher 3 is thinking
-[12694] Philosopher 2 is sleeping
-[12694] Philosopher 3 has taken a fork
-[12694] Philosopher 3 has taken a fork
-[12694] Philosopher 3 is eating
-[12694] Philosopher 1 has taken a fork
-[12694] Philosopher 1 is eating
-[12775] Philosopher 4 is thinking
-[12794] Philosopher 3 is sleeping
-[12794] Philosopher 1 is sleeping
-[12794] Philosopher 4 has taken a fork
-[12794] Philosopher 4 has taken a fork
-[12794] Philosopher 4 is eating
-[12803] Philosopher 2 is thinking
-[12803] Philosopher 2 has taken a fork
-[12803] Philosopher 2 has taken a fork
-[12803] Philosopher 2 is eating
-[12895] Philosopher 4 is sleeping
-[12928] Philosopher 3 is thinking
-[12928] Philosopher 1 is thinking
-[12928] Philosopher 1 has taken a fork
-[12996] Philosopher 1 died
+[115] Philosopher 2 is thinking
+[124] Philosopher 2 has taken a fork
+[124] Philosopher 2 has taken a fork
+[129] Philosopher 2 is eating
+[132] Philosopher 4 is thinking
+[132] Philosopher 4 has taken a fork
+[132] Philosopher 4 has taken a fork
+[132] Philosopher 4 is eating
+[132] Philosopher 1 is thinking
+[138] Philosopher 3 is thinking
+[233] Philosopher 2 is sleeping
+[233] Philosopher 3 has taken a fork
+[234] Philosopher 4 is sleeping
+[234] Philosopher 1 has taken a fork
+[234] Philosopher 1 has taken a fork
+[234] Philosopher 1 is eating
+[234] Philosopher 3 has taken a fork
+[234] Philosopher 3 is eating
+[334] Philosopher 1 is sleeping
+[334] Philosopher 3 is sleeping
+[343] Philosopher 2 is thinking
+[343] Philosopher 2 has taken a fork
+[343] Philosopher 2 has taken a fork
+[343] Philosopher 2 is eating
+[343] Philosopher 4 is thinking
+[343] Philosopher 4 has taken a fork
+[343] Philosopher 4 has taken a fork
+[343] Philosopher 4 is eating
+[444] Philosopher 2 is sleeping
+[445] Philosopher 1 is thinking
+[445] Philosopher 3 is thinking
+[445] Philosopher 3 has taken a fork
+[445] Philosopher 4 is sleeping
+[445] Philosopher 3 has taken a fork
+[445] Philosopher 3 is eating
+[445] Philosopher 1 has taken a fork
+[445] Philosopher 1 has taken a fork
+[445] Philosopher 1 is eating
+[545] Philosopher 1 is sleeping
+[545] Philosopher 3 is sleeping
+[551] Philosopher 2 is thinking
+[551] Philosopher 2 has taken a fork
+[551] Philosopher 2 has taken a fork
+[551] Philosopher 2 is eating
+[552] Philosopher 4 is thinking
+[552] Philosopher 4 has taken a fork
+[552] Philosopher 4 has taken a fork
+[552] Philosopher 4 is eating
+[652] Philosopher 2 is sleeping
+[653] Philosopher 4 is sleeping
+[659] Philosopher 1 is thinking
+[660] Philosopher 1 has taken a fork
+[660] Philosopher 1 has taken a fork
+[660] Philosopher 1 is eating
+[662] Philosopher 3 is thinking
+[662] Philosopher 3 has taken a fork
+[662] Philosopher 3 has taken a fork
+[662] Philosopher 3 is eating
+[760] Philosopher 1 is sleeping
+[762] Philosopher 3 is sleeping
+[763] Philosopher 2 is thinking
+[763] Philosopher 2 has taken a fork
+[763] Philosopher 2 has taken a fork
+[763] Philosopher 2 is eating
+[772] Philosopher 4 is thinking
+[772] Philosopher 4 has taken a fork
+[772] Philosopher 4 has taken a fork
+[772] Philosopher 4 is eating
+[864] Philosopher 2 is sleeping
+[867] Philosopher 1 is thinking
+[873] Philosopher 4 is sleeping
+[873] Philosopher 1 has taken a fork
+[873] Philosopher 1 has taken a fork
+[873] Philosopher 1 is eating
+[877] Philosopher 3 is thinking
+[877] Philosopher 3 has taken a fork
+[877] Philosopher 3 has taken a fork
+[877] Philosopher 3 is eating
+[974] Philosopher 2 is thinking
+[975] Philosopher 1 is sleeping
+[985] Philosopher 2 has taken a fork
+[985] Philosopher 2 has taken a fork
+[985] Philosopher 2 is eating
+[985] Philosopher 4 is thinking
+[985] Philosopher 4 has taken a fork
+[987] Philosopher 3 is sleeping
+[988] Philosopher 4 has taken a fork
+[988] Philosopher 4 is eating
+[1082] Philosopher 1 is thinking
+[1086] Philosopher 2 is sleeping
+[1091] Philosopher 4 is sleeping
+[1091] Philosopher 1 has taken a fork
+[1091] Philosopher 1 has taken a fork
+[1091] Philosopher 1 is eating
+[1093] Philosopher 3 is thinking
+[1093] Philosopher 3 has taken a fork
+[1093] Philosopher 3 has taken a fork
+[1093] Philosopher 3 is eating
+[1191] Philosopher 2 is thinking
+[1192] Philosopher 1 is sleeping
+[1193] Philosopher 3 is sleeping
+[1194] Philosopher 2 has taken a fork
+[1194] Philosopher 2 has taken a fork
+[1194] Philosopher 2 is eating
+[1196] Philosopher 4 is thinking
+[1196] Philosopher 4 has taken a fork
+[1196] Philosopher 4 has taken a fork
+[1196] Philosopher 4 is eating
+[1294] Philosopher 2 is sleeping
+[1297] Philosopher 4 is sleeping
+[1300] Philosopher 3 is thinking
+[1300] Philosopher 3 has taken a fork
+[1300] Philosopher 3 has taken a fork
+[1300] Philosopher 3 is eating
+[1301] Philosopher 1 is thinking
+[1301] Philosopher 1 has taken a fork
+[1301] Philosopher 1 has taken a fork
+[1301] Philosopher 1 is eating
+[1397] Philosopher 2 is thinking
+[1401] Philosopher 3 is sleeping
+[1401] Philosopher 1 is sleeping
+[1403] Philosopher 2 has taken a fork
+[1403] Philosopher 2 has taken a fork
+[1403] Philosopher 2 is eating
+[1403] Philosopher 4 is thinking
+[1403] Philosopher 4 has taken a fork
+[1403] Philosopher 4 has taken a fork
+[1403] Philosopher 4 is eating
+[1504] Philosopher 2 is sleeping
+[1504] Philosopher 4 is sleeping
+[1511] Philosopher 3 is thinking
+[1511] Philosopher 3 has taken a fork
+[1511] Philosopher 3 has taken a fork
+[1511] Philosopher 3 is eating
+[1511] Philosopher 1 is thinking
+[1511] Philosopher 1 has taken a fork
+[1511] Philosopher 1 has taken a fork
+[1511] Philosopher 1 is eating
+[1610] Philosopher 2 is thinking
+[1610] Philosopher 4 is thinking
+[1612] Philosopher 3 is sleeping
+[1612] Philosopher 1 is sleeping
+[1613] Philosopher 2 has taken a fork
+[1613] Philosopher 2 has taken a fork
+[1613] Philosopher 2 is eating
+[1613] Philosopher 4 has taken a fork
+[1613] Philosopher 4 has taken a fork
+[1613] Philosopher 4 is eating
+[1714] Philosopher 4 is sleeping
+[1715] Philosopher 2 is sleeping
+[1718] Philosopher 1 is thinking
+[1718] Philosopher 1 has taken a fork
+[1718] Philosopher 1 has taken a fork
+[1718] Philosopher 1 is eating
+[1721] Philosopher 3 is thinking
+[1721] Philosopher 3 has taken a fork
+[1721] Philosopher 3 has taken a fork
+[1721] Philosopher 3 is eating
+[1819] Philosopher 1 is sleeping
+[1825] Philosopher 3 is sleeping
+[1827] Philosopher 2 is thinking
+[1827] Philosopher 2 has taken a fork
+[1827] Philosopher 2 has taken a fork
+[1827] Philosopher 2 is eating
+[1827] Philosopher 4 is thinking
+[1827] Philosopher 4 has taken a fork
+[1827] Philosopher 4 has taken a fork
+[1827] Philosopher 4 is eating
+[1927] Philosopher 2 is sleeping
+[1927] Philosopher 4 is sleeping
+[1927] Philosopher 1 is thinking
+[1927] Philosopher 1 has taken a fork
+[1927] Philosopher 1 has taken a fork
+[1927] Philosopher 1 is eating
+[1932] Philosopher 3 is thinking
+[1932] Philosopher 3 has taken a fork
+[1932] Philosopher 3 has taken a fork
+[1932] Philosopher 3 is eating
+[2028] Philosopher 1 is sleeping
+[2035] Philosopher 3 is sleeping
+[2041] Philosopher 2 is thinking
+[2041] Philosopher 2 has taken a fork
+[2041] Philosopher 2 has taken a fork
+[2041] Philosopher 2 is eating
+[2041] Philosopher 4 is thinking
+[2041] Philosopher 4 has taken a fork
+[2041] Philosopher 4 has taken a fork
+[2041] Philosopher 4 is eating
+[2137] Philosopher 1 is thinking
+[2142] Philosopher 3 is thinking
+[2142] Philosopher 4 is sleeping
+[2142] Philosopher 2 is sleeping
+[2142] Philosopher 3 has taken a fork
+[2142] Philosopher 3 has taken a fork
+[2142] Philosopher 3 is eating
+[2142] Philosopher 1 has taken a fork
+[2142] Philosopher 1 has taken a fork
+[2142] Philosopher 1 is eating
+[2243] Philosopher 1 is sleeping
+[2243] Philosopher 3 is sleeping
+[2258] Philosopher 4 is thinking
+[2258] Philosopher 4 has taken a fork
+[2258] Philosopher 4 has taken a fork
+[2258] Philosopher 4 is eating
+[2258] Philosopher 2 is thinking
+[2258] Philosopher 2 has taken a fork
+[2258] Philosopher 2 has taken a fork
+[2258] Philosopher 2 is eating
+[2350] Philosopher 1 is thinking
+[2352] Philosopher 3 is thinking
+[2358] Philosopher 4 is sleeping
+[2358] Philosopher 1 has taken a fork
+[2358] Philosopher 2 is sleeping
+[2358] Philosopher 1 has taken a fork
+[2358] Philosopher 1 is eating
+[2358] Philosopher 3 has taken a fork
+[2358] Philosopher 3 has taken a fork
+[2358] Philosopher 3 is eating
+[2460] Philosopher 3 is sleeping
+[2461] Philosopher 1 is sleeping
+[2464] Philosopher 4 is thinking
+[2464] Philosopher 4 has taken a fork
+[2464] Philosopher 4 has taken a fork
+[2464] Philosopher 4 is eating
+[2464] Philosopher 2 is thinking
+[2464] Philosopher 2 has taken a fork
+[2464] Philosopher 2 has taken a fork
+[2465] Philosopher 2 is eating
+[2565] Philosopher 4 is sleeping
+[2565] Philosopher 2 is sleeping
+[2565] Philosopher 1 is thinking
+[2565] Philosopher 1 has taken a fork
+[2565] Philosopher 1 has taken a fork
+[2565] Philosopher 1 is eating
+[2566] Philosopher 3 is thinking
+[2566] Philosopher 3 has taken a fork
+[2566] Philosopher 3 has taken a fork
+[2566] Philosopher 3 is eating
+[2666] Philosopher 1 is sleeping
+[2666] Philosopher 3 is sleeping
+[2671] Philosopher 2 is thinking
+[2671] Philosopher 2 has taken a fork
+[2671] Philosopher 2 has taken a fork
+[2671] Philosopher 2 is eating
+[2671] Philosopher 4 is thinking
+[2671] Philosopher 4 has taken a fork
+[2671] Philosopher 4 has taken a fork
+[2671] Philosopher 4 is eating
+[2771] Philosopher 2 is sleeping
+[2771] Philosopher 4 is sleeping
+[2775] Philosopher 3 is thinking
+[2775] Philosopher 3 has taken a fork
+[2775] Philosopher 3 has taken a fork
+[2775] Philosopher 3 is eating
+[2775] Philosopher 1 is thinking
+[2775] Philosopher 1 has taken a fork
+[2775] Philosopher 1 has taken a fork
+[2775] Philosopher 1 is eating
+[2877] Philosopher 3 is sleeping
+[2877] Philosopher 1 is sleeping
+[2884] Philosopher 2 is thinking
+[2884] Philosopher 2 has taken a fork
+[2884] Philosopher 2 has taken a fork
+[2884] Philosopher 2 is eating
+[2885] Philosopher 4 is thinking
+[2885] Philosopher 4 has taken a fork
+[2885] Philosopher 4 has taken a fork
+[2885] Philosopher 4 is eating
+[2983] Philosopher 3 is thinking
+[2984] Philosopher 1 is thinking
+[2985] Philosopher 2 is sleeping
+[2985] Philosopher 4 is sleeping
+[2985] Philosopher 3 has taken a fork
+[2985] Philosopher 3 has taken a fork
+[2985] Philosopher 3 is eating
+[2985] Philosopher 1 has taken a fork
+[2985] Philosopher 1 has taken a fork
+[2985] Philosopher 1 is eating
+[3086] Philosopher 3 is sleeping
+[3086] Philosopher 1 is sleeping
+[3091] Philosopher 2 is thinking
+[3091] Philosopher 2 has taken a fork
+[3091] Philosopher 2 has taken a fork
+[3091] Philosopher 2 is eating
+[3093] Philosopher 4 is thinking
+[3093] Philosopher 4 has taken a fork
+[3093] Philosopher 4 has taken a fork
+[3093] Philosopher 4 is eating
+[3192] Philosopher 1 is thinking
+[3192] Philosopher 3 is thinking
+[3192] Philosopher 2 is sleeping
+[3192] Philosopher 3 has taken a fork
+[3193] Philosopher 4 is sleeping
+[3193] Philosopher 3 has taken a fork
+[3193] Philosopher 3 is eating
+[3193] Philosopher 1 has taken a fork
+[3193] Philosopher 1 has taken a fork
+[3193] Philosopher 1 is eating
+[3296] Philosopher 3 is sleeping
+[3296] Philosopher 1 is sleeping
+[3300] Philosopher 2 is thinking
+[3300] Philosopher 2 has taken a fork
+[3300] Philosopher 2 has taken a fork
+[3300] Philosopher 2 is eating
+[3300] Philosopher 4 is thinking
+[3300] Philosopher 4 has taken a fork
+[3300] Philosopher 4 has taken a fork
+[3300] Philosopher 4 is eating
+[3401] Philosopher 2 is sleeping
+[3401] Philosopher 4 is sleeping
+[3403] Philosopher 3 is thinking
+[3403] Philosopher 3 has taken a fork
+[3403] Philosopher 3 has taken a fork
+[3403] Philosopher 3 is eating
+[3403] Philosopher 1 is thinking
+[3403] Philosopher 1 has taken a fork
+[3403] Philosopher 1 has taken a fork
+[3403] Philosopher 1 is eating
+[3504] Philosopher 3 is sleeping
+[3504] Philosopher 1 is sleeping
+[3509] Philosopher 2 is thinking
+[3509] Philosopher 2 has taken a fork
+[3509] Philosopher 2 has taken a fork
+[3509] Philosopher 2 is eating
+[3509] Philosopher 4 is thinking
+[3509] Philosopher 4 has taken a fork
+[3509] Philosopher 4 has taken a fork
+[3509] Philosopher 4 is eating
+[3609] Philosopher 2 is sleeping
+[3609] Philosopher 4 is sleeping
+[3614] Philosopher 3 is thinking
+[3614] Philosopher 3 has taken a fork
+[3614] Philosopher 3 has taken a fork
+[3614] Philosopher 3 is eating
+[3614] Philosopher 1 is thinking
+[3614] Philosopher 1 has taken a fork
+[3614] Philosopher 1 has taken a fork
+[3614] Philosopher 1 is eating
+[3715] Philosopher 3 is sleeping
+[3715] Philosopher 1 is sleeping
+[3717] Philosopher 4 is thinking
+[3717] Philosopher 4 has taken a fork
+[3717] Philosopher 4 has taken a fork
+[3717] Philosopher 4 is eating
+[3717] Philosopher 2 is thinking
+[3717] Philosopher 2 has taken a fork
+[3717] Philosopher 2 has taken a fork
+[3717] Philosopher 2 is eating
+[3817] Philosopher 4 is sleeping
+[3817] Philosopher 2 is sleeping
+[3825] Philosopher 1 is thinking
+[3825] Philosopher 1 has taken a fork
+[3825] Philosopher 1 has taken a fork
+[3825] Philosopher 1 is eating
+[3825] Philosopher 3 is thinking
+[3825] Philosopher 3 has taken a fork
+[3825] Philosopher 3 has taken a fork
+[3825] Philosopher 3 is eating
+[3925] Philosopher 1 is sleeping
+[3926] Philosopher 3 is sleeping
+[3930] Philosopher 4 is thinking
+[3930] Philosopher 4 has taken a fork
+[3930] Philosopher 4 has taken a fork
+[3930] Philosopher 4 is eating
+[3930] Philosopher 2 is thinking
+[3930] Philosopher 2 has taken a fork
+[3930] Philosopher 2 has taken a fork
+[3930] Philosopher 2 is eating
+[4031] Philosopher 4 is sleeping
+[4031] Philosopher 2 is sleeping
+[4045] Philosopher 1 is thinking
+[4045] Philosopher 1 has taken a fork
+[4045] Philosopher 1 has taken a fork
+[4045] Philosopher 1 is eating
+[4045] Philosopher 3 is thinking
+[4045] Philosopher 3 has taken a fork
+[4045] Philosopher 3 has taken a fork
+[4045] Philosopher 3 is eating
+[4144] Philosopher 4 is thinking
+[4144] Philosopher 2 is thinking
+[4146] Philosopher 3 is sleeping
+[4146] Philosopher 2 has taken a fork
+[4146] Philosopher 2 has taken a fork
+[4146] Philosopher 2 is eating
+[4146] Philosopher 1 is sleeping
+[4146] Philosopher 4 has taken a fork
+[4146] Philosopher 4 has taken a fork
+[4146] Philosopher 4 is eating
+[4246] Philosopher 2 is sleeping
+[4247] Philosopher 4 is sleeping
+[4255] Philosopher 3 is thinking
+[4255] Philosopher 3 has taken a fork
+[4255] Philosopher 3 has taken a fork
+[4255] Philosopher 3 is eating
+[4255] Philosopher 1 is thinking
+[4255] Philosopher 1 has taken a fork
+[4255] Philosopher 1 has taken a fork
+[4255] Philosopher 1 is eating
+[4354] Philosopher 2 is thinking
+[4354] Philosopher 4 is thinking
+[4356] Philosopher 3 is sleeping
+[4356] Philosopher 1 is sleeping
+[4356] Philosopher 4 has taken a fork
+[4356] Philosopher 4 has taken a fork
+[4356] Philosopher 4 is eating
+[4356] Philosopher 2 has taken a fork
+[4356] Philosopher 2 has taken a fork
+[4356] Philosopher 2 is eating
+[4459] Philosopher 4 is sleeping
+[4459] Philosopher 2 is sleeping
+[4463] Philosopher 1 is thinking
+[4463] Philosopher 1 has taken a fork
+[4463] Philosopher 1 has taken a fork
+[4463] Philosopher 1 is eating
+[4463] Philosopher 3 is thinking
+[4463] Philosopher 3 has taken a fork
+[4463] Philosopher 3 has taken a fork
+[4463] Philosopher 3 is eating
+[4565] Philosopher 1 is sleeping
+[4565] Philosopher 3 is sleeping
+[4569] Philosopher 4 is thinking
+[4569] Philosopher 4 has taken a fork
+[4569] Philosopher 4 has taken a fork
+[4569] Philosopher 4 is eating
+[4569] Philosopher 2 is thinking
+[4569] Philosopher 2 has taken a fork
+[4569] Philosopher 2 has taken a fork
+[4569] Philosopher 2 is eating
+[4670] Philosopher 4 is sleeping
+[4670] Philosopher 2 is sleeping
+[4672] Philosopher 1 is thinking
+[4672] Philosopher 1 has taken a fork
+[4672] Philosopher 1 has taken a fork
+[4672] Philosopher 1 is eating
+[4672] Philosopher 3 is thinking
+[4672] Philosopher 3 has taken a fork
+[4672] Philosopher 3 has taken a fork
+[4672] Philosopher 3 is eating
+[4772] Philosopher 1 is sleeping
+[4772] Philosopher 3 is sleeping
+[4777] Philosopher 4 is thinking
+[4777] Philosopher 4 has taken a fork
+[4777] Philosopher 4 has taken a fork
+[4777] Philosopher 4 is eating
+[4777] Philosopher 2 is thinking
+[4777] Philosopher 2 has taken a fork
+[4777] Philosopher 2 has taken a fork
+[4777] Philosopher 2 is eating
+[4877] Philosopher 4 is sleeping
+[4877] Philosopher 2 is sleeping
+[4884] Philosopher 3 is thinking
+[4884] Philosopher 3 has taken a fork
+[4884] Philosopher 3 has taken a fork
+[4884] Philosopher 3 is eating
+[4884] Philosopher 1 is thinking
+[4884] Philosopher 1 has taken a fork
+[4884] Philosopher 1 has taken a fork
+[4884] Philosopher 1 is eating
+[4984] Philosopher 4 is thinking
+[4984] Philosopher 2 is thinking
+[4985] Philosopher 3 is sleeping
+[4985] Philosopher 1 is sleeping
+[4985] Philosopher 2 has taken a fork
+[4985] Philosopher 2 has taken a fork
+[4985] Philosopher 2 is eating
+[4985] Philosopher 4 has taken a fork
+[4985] Philosopher 4 has taken a fork
+[4985] Philosopher 4 is eating
+[5085] Philosopher 2 is sleeping
+[5085] Philosopher 4 is sleeping
+[5101] Philosopher 3 is thinking
+[5101] Philosopher 3 has taken a fork
+[5101] Philosopher 3 has taken a fork
+[5101] Philosopher 3 is eating
+[5101] Philosopher 1 is thinking
+[5101] Philosopher 1 has taken a fork
+[5101] Philosopher 1 has taken a fork
+[5101] Philosopher 1 is eating
+[5195] Philosopher 2 is thinking
+[5195] Philosopher 4 is thinking
+[5203] Philosopher 2 has taken a fork
+[5203] Philosopher 4 has taken a fork
+[5204] Philosopher 3 is sleeping
+[5204] Philosopher 4 has taken a fork
+[5204] Philosopher 4 is eating
+[5204] Philosopher 2 has taken a fork
+[5204] Philosopher 2 is eating
+[5204] Philosopher 1 is sleeping
+[5305] Philosopher 2 is sleeping
+[5305] Philosopher 4 is sleeping
+[5312] Philosopher 3 is thinking
+[5312] Philosopher 3 has taken a fork
+[5312] Philosopher 3 has taken a fork
+[5312] Philosopher 3 is eating
+[5312] Philosopher 1 is thinking
+[5312] Philosopher 1 has taken a fork
+[5312] Philosopher 1 has taken a fork
+[5312] Philosopher 1 is eating
+[5412] Philosopher 3 is sleeping
+[5412] Philosopher 1 is sleeping
+[5417] Philosopher 4 is thinking
+[5417] Philosopher 4 has taken a fork
+[5417] Philosopher 4 has taken a fork
+[5417] Philosopher 4 is eating
+[5417] Philosopher 2 is thinking
+[5417] Philosopher 2 has taken a fork
+[5417] Philosopher 2 has taken a fork
+[5417] Philosopher 2 is eating
+[5517] Philosopher 4 is sleeping
+[5517] Philosopher 2 is sleeping
+[5518] Philosopher 3 is thinking
+[5518] Philosopher 3 has taken a fork
+[5518] Philosopher 3 has taken a fork
+[5518] Philosopher 3 is eating
+[5518] Philosopher 1 is thinking
+[5518] Philosopher 1 has taken a fork
+[5518] Philosopher 1 has taken a fork
+[5518] Philosopher 1 is eating
+[5619] Philosopher 3 is sleeping
+[5619] Philosopher 1 is sleeping
+[5626] Philosopher 2 is thinking
+[5626] Philosopher 2 has taken a fork
+[5626] Philosopher 2 has taken a fork
+[5626] Philosopher 2 is eating
+[5626] Philosopher 4 is thinking
+[5626] Philosopher 4 has taken a fork
+[5626] Philosopher 4 has taken a fork
+[5626] Philosopher 4 is eating
+[5726] Philosopher 4 is sleeping
+[5726] Philosopher 2 is sleeping
+[5732] Philosopher 1 is thinking
+[5732] Philosopher 1 has taken a fork
+[5732] Philosopher 1 has taken a fork
+[5732] Philosopher 1 is eating
+[5732] Philosopher 3 is thinking
+[5732] Philosopher 3 has taken a fork
+[5732] Philosopher 3 has taken a fork
+[5732] Philosopher 3 is eating
+[5832] Philosopher 4 is thinking
+[5832] Philosopher 2 is thinking
+[5832] Philosopher 1 is sleeping
+[5833] Philosopher 4 has taken a fork
+[5833] Philosopher 3 is sleeping
+[5833] Philosopher 2 has taken a fork
+[5833] Philosopher 2 has taken a fork
+[5833] Philosopher 2 is eating
+[5833] Philosopher 4 has taken a fork
+[5833] Philosopher 4 is eating
+[5934] Philosopher 2 is sleeping
+[5934] Philosopher 4 is sleeping
+[5941] Philosopher 1 is thinking
+[5941] Philosopher 1 has taken a fork
+[5941] Philosopher 1 has taken a fork
+[5941] Philosopher 1 is eating
+[5946] Philosopher 3 is thinking
+[5946] Philosopher 3 has taken a fork
+[5946] Philosopher 3 has taken a fork
+[5946] Philosopher 3 is eating
+[6042] Philosopher 1 is sleeping
+[6042] Philosopher 4 is thinking
+[6042] Philosopher 4 has taken a fork
+[6043] Philosopher 2 is thinking
+[6046] Philosopher 3 is sleeping
+[6047] Philosopher 2 has taken a fork
+[6047] Philosopher 2 has taken a fork
+[6047] Philosopher 2 is eating
+[6047] Philosopher 4 has taken a fork
+[6047] Philosopher 4 is eating
+[6147] Philosopher 4 is sleeping
+[6147] Philosopher 2 is sleeping
+[6150] Philosopher 1 is thinking
+[6150] Philosopher 1 has taken a fork
+[6150] Philosopher 1 has taken a fork
+[6150] Philosopher 1 is eating
+[6152] Philosopher 3 is thinking
+[6152] Philosopher 3 has taken a fork
+[6152] Philosopher 3 has taken a fork
+[6152] Philosopher 3 is eating
+[6254] Philosopher 1 is sleeping
+[6254] Philosopher 3 is sleeping
+[6257] Philosopher 4 is thinking
+[6257] Philosopher 4 has taken a fork
+[6257] Philosopher 4 has taken a fork
+[6257] Philosopher 4 is eating
+[6257] Philosopher 2 is thinking
+[6257] Philosopher 2 has taken a fork
+[6257] Philosopher 2 has taken a fork
+[6257] Philosopher 2 is eating
+[6358] Philosopher 2 is sleeping
+[6358] Philosopher 4 is sleeping
+[6368] Philosopher 1 is thinking
+[6368] Philosopher 1 has taken a fork
+[6368] Philosopher 1 has taken a fork
+[6368] Philosopher 1 is eating
+[6369] Philosopher 3 is thinking
+[6369] Philosopher 3 has taken a fork
+[6369] Philosopher 3 has taken a fork
+[6369] Philosopher 3 is eating
