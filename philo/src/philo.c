@@ -6,7 +6,7 @@
 /*   By: allera-m <allera-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/26 17:27:37 by allera-m          #+#    #+#             */
-/*   Updated: 2025/02/26 18:28:28 by allera-m         ###   ########.fr       */
+/*   Updated: 2025/02/26 18:34:54 by allera-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,6 @@ int	eat(t_philo *philo)
 void	*philosopher(void *arg)
 {
 	t_philo	*philo;
-	int		i;
 
 	philo = (t_philo *)arg;
 	while (1)
@@ -78,7 +77,6 @@ void	*philosopher(void *arg)
 		if (!eat(philo))
 			return (NULL);
 		print_status(philo->config, philo->id, "is sleeping");
-		i = 0;
 		if (!run_check(philo))
 			return (NULL);
 	}
