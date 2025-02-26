@@ -12,7 +12,7 @@ INCLUDE_DIR = include
 
 # Archivos fuente
 SRC_FILES = $(SRC_DIR)/main.c $(SRC_DIR)/init.c $(SRC_DIR)/philo.c $(SRC_DIR)/monitor.c
-UTILS_FILES = $(UTILS_DIR)/utils.c $(UTILS_DIR)/ft_atoi.c $(UTILS_DIR)/cleanup.c
+UTILS_FILES = $(UTILS_DIR)/utils.c $(UTILS_DIR)/ft_atoi.c $(UTILS_DIR)/cleanup.c $(UTILS_DIR)/run_check.c
 
 # Objetos
 OBJ_FILES = $(SRC_FILES:.c=.o) $(UTILS_FILES:.c=.o)
