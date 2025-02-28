@@ -6,7 +6,7 @@
 /*   By: allera-m <allera-m@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/26 17:34:43 by allera-m          #+#    #+#             */
-/*   Updated: 2025/02/26 17:58:42 by allera-m         ###   ########.fr       */
+/*   Updated: 2025/02/28 13:34:59 by allera-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	print_status(t_config *config, int id, char *status)
 	}
 	pthread_mutex_unlock(&config->state_mutex);
 	pthread_mutex_lock(&config->print_mutex);
-	printf("[%ld] Philosopher %d %s\n", get_time() - config->start_time, id,
+	printf("%ld %d %s\n", get_time() - config->start_time, id,
 		status);
 	pthread_mutex_unlock(&config->print_mutex);
 }
